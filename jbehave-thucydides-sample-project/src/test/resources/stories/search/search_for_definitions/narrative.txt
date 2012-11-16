@@ -1,0 +1,6 @@
+Search for definitions
+
+Narrative:
+In order to find the definitions I am interested in faster
+As a user
+I want to be able to look up the definition of a word

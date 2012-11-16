@@ -1,0 +1,6 @@
+New Capability
+
+Narrative:
+In order to have something
+As a user
+I want to be able to do something

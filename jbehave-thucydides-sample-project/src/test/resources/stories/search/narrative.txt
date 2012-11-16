@@ -1,0 +1,6 @@
+Search
+
+Narrative:
+In order to find anything I am interested in faster
+As a user
+I want to be able to search for every content
