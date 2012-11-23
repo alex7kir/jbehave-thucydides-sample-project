@@ -1,6 +1,0 @@
-Feature 1
-
-Narrative:
-In order to have feature 1
-As a user
-I want to be able to do thing 1

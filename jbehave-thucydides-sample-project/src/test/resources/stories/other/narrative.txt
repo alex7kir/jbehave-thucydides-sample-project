@@ -1,0 +1,6 @@
+Other
+
+Narrative:
+In order to have something other
+As a user
+I want to have some additional features

@@ -1,0 +1,6 @@
+Topics
+
+Narrative:
+In order to have topics
+As a user
+I want to be able to view topics
