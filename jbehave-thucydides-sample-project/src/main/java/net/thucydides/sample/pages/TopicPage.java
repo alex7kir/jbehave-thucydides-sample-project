@@ -9,10 +9,9 @@ import net.thucydides.core.annotations.DefaultUrl;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import net.thucydides.core.pages.PageObject;
 
 @DefaultUrl("http://en.wiktionary.org/wiki/Wiktionary:Topics")
-public class TopicPage extends PageObject {
+public class TopicPage extends AbstractPage {
 
     @FindBy(css = "div.NavHead")
     private WebElement topicTitle;

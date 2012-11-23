@@ -11,14 +11,12 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
-import net.thucydides.core.pages.PageObject;
-
 import java.util.List;
 
 import static ch.lambdaj.Lambda.convert;
 
 @DefaultUrl("http://en.wiktionary.org/wiki/Wiktionary:Main_Page")
-public class DictionaryPage extends PageObject {
+public class DictionaryPage extends AbstractPage {
 
     @FindBy(name="search")
     private WebElement searchTerms;
