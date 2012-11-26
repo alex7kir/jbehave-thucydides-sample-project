@@ -12,8 +12,8 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <thucydides.version>0.9.28</thucydides.version>
-        <thucydides.jbehave.version>0.9.28</thucydides.jbehave.version>
+        <thucydides.version>0.9.75</thucydides.version>
+        <thucydides.jbehave.version>0.9.74</thucydides.jbehave.version>
         <webdriver.driver>iexplorer</webdriver.driver>
     </properties>
 
