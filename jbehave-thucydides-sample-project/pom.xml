@@ -12,7 +12,7 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <thucydides.version>0.9.75</thucydides.version>
+        <thucydides.version>0.9.77</thucydides.version>
         <thucydides.jbehave.version>0.9.74</thucydides.jbehave.version>
         <webdriver.driver>iexplorer</webdriver.driver>
     </properties>
@@ -82,7 +82,7 @@
 <!--             </plugin> -->
             <plugin>
                 <artifactId>maven-failsafe-plugin</artifactId>
-                <version>2.12</version>
+                <version>2.12.4</version>
                 <configuration>
                     <includes>
                         <include>**/*Test.java</include>
@@ -90,7 +90,8 @@
                         <include>**/When*.java</include>
                     </includes>
                     <argLine>-Xmx512m</argLine>
-<!--                      <parallel>classes</parallel>  -->
+<!--                     <parallel>classes</parallel> -->
+<!-- 					<threadCount>2</threadCount> -->
                     <systemPropertyVariables>
                         <webdriver.driver>${webdriver.driver}</webdriver.driver>
                     </systemPropertyVariables>
